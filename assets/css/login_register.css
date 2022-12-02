@@ -1,0 +1,388 @@
+/*  =============== 
+        fonts Styles
+      ===============   */
+
+
+      @font-face {
+        font-family: 'IRANYekanWeb';
+        src: url('../fonts/woff/IRANYekanWeb-Bold.woff2') format('woff2'),
+            url('../fonts/woff/IRANYekanWeb-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+    
+    }
+    
+    @font-face {
+        font-family: 'IRANYekanWeb';
+        src: url('../fonts/woff/IRANYekanWeb-Thin.woff2') format('woff2'),
+            url('../fonts/woff/IRANYekanWeb-Thin.woff') format('woff');
+        font-weight: 100;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'IRANYekanWeb';
+        src: url('../fonts/woff/IRANYekanWeb-Light.woff2') format('woff2'),
+            url('../fonts/woff/IRANYekanWeb-Light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'IRANYekanWeb';
+        src: url('../fonts/woff/IRANYekanWeb.woff2') format('woff2'),
+            url('../fonts/woff/IRANYekanWeb.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'IRANYekanWeb';
+        src: url('../fonts/woff/IRANYekanWeb-Medium.woff2') format('woff2'),
+            url('../fonts/woff/IRANYekanWeb-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'IRANYekanWeb';
+        src: url('../fonts/woff/IRANYekanWeb-ExtraBold.woff2') format('woff2'),
+            url('../fonts/woff/IRANYekanWeb-ExtraBold.woff') format('woff');
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'IRANYekanWeb';
+        src: url('../fonts/woff/IRANYekanWeb-Black.woff2') format('woff2'),
+            url('../fonts/woff/IRANYekanWeb-Black.woff') format('woff');
+        font-weight: 850;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'IRANYekanWeb ExtraBlack';
+        src: url('../fonts/woff/IRANYekanWeb-ExtraBlack.woff2') format('woff2'),
+            url('../fonts/woff/IRANYekanWeb-ExtraBlack.woff') format('woff');
+        font-weight: 900;
+        font-style: normal;
+    }
+    
+body {
+    font-family: IRANYekanWeb;
+}
+p,a,li,span , h1,h2,h3,h4,h5,h6,body,input,button , input[text]{
+    font-family: IRANYekanWeb !important;
+}
+
+
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+    --clr-body-bg: #f1f4f1;
+    --clr-heading-text: #161616;
+    --clr-text: #525252;
+    --clr-link: #507AF7;
+    --clr-placeholder: #A8A8A8;
+    --clr-border:#DCE2DA;
+    --clr-myskill-text: #0AA672;
+    --clr-myskill-bg: #E7FAF4;
+    --clr-green-bg:#0DD08E;
+    --clr-dark-btn-g-bg:#393939;
+
+
+    --form-border: solid 1px #DCE2DA;
+
+
+
+}
+
+/*  =============== 
+        Global Styles
+      ===============   */
+
+body {
+    height: 95vh;
+    width: 95vw;
+    background: var(--clr-body-bg);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-bottom: 0.75rem;
+    color: var(--clr-heading-text);
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 14px;
+    color: var(--clr-text);
+    font-size: 14px;
+}
+
+.upload-btn {
+    width: 182px;
+    height: 32px;
+    border: 1px solid #393939;
+    padding: 5px 16px;
+    display: flex;
+    cursor: pointer;
+}
+.upload-btn > img{
+    width: 30px;
+    margin-right: 20px;
+}
+.radio-box > label{
+    font-size: 14px !important;
+    color: var(--clr-heading-text) !important;
+}
+input {
+    font-size: 14px;
+}
+
+.input-box {
+    position: relative;
+}
+
+.text-inputs {
+    height: 40px;
+    background: #f1f4f1;
+    outline: none;
+    padding: 11px 16px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #7F9476;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.text-inputs-half{
+    width: 212px !important;
+}
+.text-inputs-small {
+    width: 160px;
+}
+
+.text-inputs-small::placeholder {
+    color: var(--clr-placeholder);
+    opacity: 1;
+}
+
+.input-box label {
+    font-size: 12px;
+    color: var(--clr-text);
+}
+input[type=text]:focus
+,input[type=password]:focus,
+input[type=email]:focus,
+textarea:focus{
+    border :2px solid #0DD08E !important;
+}
+select{
+    font-size: 14px;
+    padding: 5px 16px !important;
+}
+textarea{
+    height: 150px !important;
+}
+.forget-pass {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    font-size: 12px;
+}
+
+.form-icon {
+    position: absolute;
+    color: #161616;
+    top: 44px;
+    left: 16px;
+    font-size: 14px;
+}
+
+.form-btn {
+    font-size: 14px !important;
+    color: white !important;
+    background: #0DD08E !important;
+    border-radius: 0;
+    height: 42px;
+    float: left;
+}
+.link-green-btn {
+    display: inline-block;
+    height: 48px;
+    padding: 13px 16px;
+    font-size: 16px !important;
+    color: white !important;
+    background: var(--clr-green-bg);
+    margin-top: 40px;
+}
+.dark-btn{
+    height: 42px;
+    background: var(--clr-dark-btn-g-bg);
+    color: white;
+    border-radius: 0;
+
+}
+
+.btn-icon {
+    margin-right: 30px;
+}
+
+.form-btn-fullwidth {
+    margin-top: 5px;
+    width: 100%;
+    text-align: right;
+    position: relative;
+}
+
+.form-btn-fullwidth i {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+.link-btn {
+    border: solid 1px;
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+    color: #393939 !important;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    display: inline-block;
+    padding: 16px;
+    position: relative;
+}
+.link-btn-small{
+    width: 230px;
+    background: transparent;
+    padding: 8px 16px;
+    text-align: right;
+}
+.link-btn-icon {
+    font-size: 14px;
+    position: absolute;
+    top: 51%;
+    left: 16px;
+    transform: translateY(-50%);
+}
+
+form {
+    border-bottom: solid 1px #DCE2DA;
+    height: 250px;
+}
+
+
+/********** header ********/
+.header {
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: solid 1px #DCE2DA;
+}
+
+.header .logo {
+    width: 105px;
+}
+
+.header img {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-container {
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 150px;
+    width: 480px;
+    background-color: white;
+    padding: 16px !important;
+}
+
+.form-container a {
+    color: var(--clr-link);
+}
+
+
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 28px !important;
+    }
+
+    body {
+        background: white;
+    }
+
+    .header {
+        height: 56px;
+    }
+
+    .header .logo {
+        width: 70px;
+    }
+
+    .form-container {
+        top: 85px;
+        padding: 24px !important;
+    }
+    .text-inputs-half{
+        width: 100% !important;
+    }
+}
+
+/* 68 */
+.signup-from {
+    padding: 10px;
+    border: none;
+    border-top: var(--form-border);
+    margin-top: 10px;
+}
+
+.privacy-policy {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 670px;
+    width: 490px;
+    padding: 16px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .privacy-policy {
+        top: 530px;
+    }
+}
+
+.form-container68 {
+    height: 525px !important;
+}
