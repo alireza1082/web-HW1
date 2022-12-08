@@ -1,0 +1,437 @@
+p,
+a,
+li,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+input,
+button input::placeholder,
+select,
+textarea {
+    font-family: IRANYekanWeb !important;
+}
+
+.navbar-nav2 .nav-item .nav-link:focus {
+    color: var(--clr-text) !important;
+}
+
+.navbar-nav2 .nav-item .nav-link .active {
+    color: var(--clr-text);
+}
+
+.navbar {
+    height: 63px;
+    background-color: transparent !important;
+    font-size: 14px;
+}
+.navbar-nav .nav-link,
+.transparent-btn{
+    color: white !important;
+}
+.disable-scroll {
+    overflow-y: hidden;
+}
+
+.banner {
+    background: linear-gradient(180deg, #000000 -41.7%, rgba(0, 0, 0, 0) 100%), linear-gradient(270deg, #000000 26.56%, rgba(0, 0, 0, 0) 62.5%), url(../img/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.section-margin {
+    margin-top: 120px;
+}
+
+.banner h3 {
+    /* margin-top: 101px; */
+    margin-top: 141px;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 58px;
+    color: white;
+    margin-top: 42px;
+    margin-bottom: 32px;
+}
+
+
+
+#form-search {
+    position: absolute;
+    height: auto;
+    width: auto;
+    left: 10%;
+    top: 10%;
+    background-color: #A7F0BA;
+}
+
+.way-radio {
+    background:none;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .banner h1 {
+        /* margin-top: 65px; */
+        margin-top: 160px;
+    }
+
+    .section-margin {
+        margin-top: 80px;
+    }
+
+    input {
+        height: 58px;
+    }
+
+}
+
+
+/**********  carousel airlines ************* */
+
+.airlines {
+    background: #f1f4f1;
+    height: 185px;
+}
+
+.airlines img {
+    height: 80px;
+}
+
+.window {
+    width: 600px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.window ul {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.window ul li {
+    min-width: 140px;
+    height: 150px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    position: relative;
+    margin-top: 17px;
+}
+
+.slider>img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slider .angle-right {
+    right: 130px;
+
+}
+
+.slider .angle-left {
+    left: 130px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .airlines {
+        height: 80px;
+    }
+
+    .slider {
+        margin-top: 0px;
+    }
+
+    .window {
+        width: 320px;
+    }
+
+    .window ul {
+        display: flex;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        transition: 0.5s ease-in-out;
+    }
+
+    .window ul li {
+        min-width: 70px;
+        height: 80px;
+        margin: 0 5px;
+    }
+
+    .window ul li img {
+        width: 100%;
+    }
+
+}
+
+/*********************favourite cities **********************/
+
+h2.heading-04 {
+    margin-bottom: 0;
+}
+
+.see-all img {
+    vertical-align: text-bottom
+}
+
+.see-all {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.favourite-cities-box img {
+    width: 100%;
+}
+
+.city{
+    height: 300px;
+}
+
+.favourite-cities-box {
+    padding: 0;
+    padding: 0 2px;
+}
+
+.favourite-city {
+    position: relative;
+}
+
+.favourite-city-title {
+    width: 100%;
+    height: 54px;
+    color: white;
+    background: var(--clr-blue-primary);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.favourite-city-title p {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.favourite-city-title i {
+    font-size: 18px;
+    color: white;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 991px) {
+    .favourite-cities-box {
+        width: 272px;
+        /* height: 254px; */
+    }
+}
+
+
+/*********** about ****************/
+.about-box {
+    position: relative;
+}
+
+.about-box>div {
+    width: 60%;
+    right: 0;
+}
+
+.about-box img {
+    width: 100%;
+}
+
+.about-title {
+    max-width: 430px;
+    align-self: center;
+}
+
+.about-title h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.about-title p {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 38px;
+    margin-top: 24px;
+
+}
+
+.about-title a {
+    font-weight: 700;
+}
+
+.about-title a i {
+    vertical-align: -3px;
+}
+
+@media screen and (max-width: 767px) {
+    .about-title {
+        margin-bottom: 40px;
+    }
+
+    .about-title h2 {
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .about-title p {
+        font-weight: 300;
+        font-size: 16px;
+    }
+}
+
+/*********** mag ****************/
+.note {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.note img {
+    width: 216px;
+    height: 216px;
+}
+
+.note-title {
+    padding: 24px;
+    max-width: 350px;
+}
+
+
+.note-title h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.note-title a {
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+.note-title a img {
+    width: 20px !important;
+    height: 20px;
+
+}
+
+.max-width {
+    width: 215px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1199px) {
+    .note {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .note {
+        margin-bottom: 32px;
+    }
+
+    .note:last-child {
+        margin-bottom: 12px;
+    }
+
+    .note img {
+        width: 100%;
+        height: auto;
+    }
+
+    .note-title {
+        max-width: 100%;
+
+    }
+
+    .max-width {
+        width: 205px;
+    }
+
+}
+
+/*********** footer ****************/
+.footer {
+    background: var(--clr-body-bg);
+    padding-top: 48px;
+    padding-bottom: 24px;
+
+}
+
+.footer-part>a h4 {
+    font-size: 16px;
+    color: var(--clr-heading-text);
+    margin-bottom: 20px !important;
+    margin-top: 5px;
+}
+
+.footer-part ul {
+    padding-right: 0;
+}
+
+.footer-part ul li a {
+    font-size: 14px;
+    color: var(--clr-text);
+}
+
+.footer-part ul li {
+    margin-bottom: 22px !important;
+}
+
+
+.social li {
+    margin-right: 32px;
+}
+
+.social>li:nth-child(1) {
+    margin-right: 0px;
+}
+
+.social li i {
+    font-size: 24px;
+    color: var(--clr-text);
+}
+
+.end-footer {
+    border-top: 1px solid #DCE2DA;
+}
+
+@media screen and (max-width:767px) {
+    .footer-part ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-part>a h4 {
+        margin-top: 0px;
+    }
+
+}
