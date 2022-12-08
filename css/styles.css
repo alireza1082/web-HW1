@@ -80,10 +80,10 @@ body {
   background: linear-gradient(to right, #00a8f0, #0084bd) !important;
 }
 .bg-grad-i {
-  background: -webkit-linear-gradient(left, #ff7b42, #ff570f) !important;
-  background: -moz-linear-gradient(left, #ff7b42, #ff570f) !important;
-  background: -o-linear-gradient(left, #ff7b42, #ff570f) !important;
-  background: -ms-linear-gradient(left, #ff7b42, #ff570f) !important;
+  background: -webkit-linear-gradient(left, #ff7b42, #144fff) !important;
+  background: -moz-linear-gradient(left, #ff7b42, #144fff) !important;
+  background: -o-linear-gradient(left, #ff7b42, #144fff) !important;
+  background: -ms-linear-gradient(left, #ff7b42, #144fff) !important;
   background: linear-gradient(to right, #ff7b42, #ff570f) !important;
 }
 /*  --BOOTSTRAP CUSTOMIZATION--  */
@@ -4306,7 +4306,7 @@ img.mfp-img {
   background: #333;
 }
 .theme-page-section-gray {
-  background: #e6e6e6;
+  background: #f1f1f1;
 }
 .theme-page-section-white {
   background: #fff;
@@ -4633,7 +4633,7 @@ img.mfp-img {
   -o-transform: translateZ(0) scale(1.2);
   -ms-transform: translateZ(0) scale(1.2);
   transform: translateZ(0) scale(1.2);
-  filter: blur(8px);
+  filter: blur(0px);
 }
 .bg-fixed {
   background-attachment: fixed;
@@ -4693,20 +4693,20 @@ img.mfp-img {
   filter: alpha(opacity=90);
 }
 .theme-hero-area-grad-mask {
-  background: -webkit-linear-gradient(135deg, #00587e, #0093d2);
-  background: -moz-linear-gradient(135deg, #00587e, #0093d2);
-  background: -o-linear-gradient(135deg, #00587e, #0093d2);
-  background: -ms-linear-gradient(135deg, #00587e, #0093d2);
-  background: linear-gradient(-45deg, #00587e, #0093d2);
-  z-index: 3;
+  /* background: -webkit-linear-gradient(135deg, #00587e, #0093d2); */
+  /* background: -moz-linear-gradient(135deg, #00587e, #0093d2); */
+  /* background: -o-linear-gradient(135deg, #00587e, #0093d2); */
+  /* background: -ms-linear-gradient(135deg, #144fff, #0093d2); */
+  background: linear-gradient(-45deg, #144fff, #0093d2);
+  /* z-index: 3; */
 }
-.theme-hero-area-grad-mask-i {
+/* .theme-hero-area-grad-mask-i {
   background: -webkit-linear-gradient(135deg, #b43600, #ff6c2d);
   background: -moz-linear-gradient(135deg, #b43600, #ff6c2d);
   background: -o-linear-gradient(135deg, #b43600, #ff6c2d);
   background: -ms-linear-gradient(135deg, #b43600, #ff6c2d);
   background: linear-gradient(-45deg, #b43600, #ff6c2d);
-}
+} */
 .theme-hero-area-grad-mask-half {
   opacity: 0.5;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -10555,7 +10555,7 @@ body {
 /*  --/ELEMENTS--  */
 /*  --FOOTER--  */
 .theme-footer {
-  background: #f7f7f7;
+  background: white;
   border-top: 1px solid #d9d9d9;
 }
 @media (max-width: 992px) {
@@ -10627,21 +10627,10 @@ body {
   text-decoration: none;
 }
 .theme-footer-brand {
-  opacity: 0.5;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -ms-transition: 0.3s;
-  transition: 0.3s;
+  opacity: 1;
   display: block;
   margin-bottom: 20px;
-}
-.theme-footer-brand:hover {
-  opacity: 1;
-  -ms-filter: none;
-  filter: none;
+  margin-right: 55px;
 }
 .theme-footer-brand > img {
   width: 55%;
