@@ -733,6 +733,12 @@ body {
   background: #fff;
   border: none;
 }
+.logedin-nav {
+  margin-bottom: 0;
+  border-radius: 0;
+  background: white;
+  border: none;
+}
 .navbar-theme .navbar-toggle {
   border: none !important;
   background: none !important;
@@ -4406,11 +4412,6 @@ textarea{
   left: 16px;
   transform: translateY(-50%);
 }
-
-form {
-  border-bottom: solid 1px #DCE2DA;
-  height: 250px;
-}
 .form-container {
   height: 360px;
   position: absolute;
@@ -7454,6 +7455,13 @@ body {
   margin-bottom: 0;
   line-height: 1em;
 }
+.theme-search-results-item-more-info {
+  font-family: iransans;
+  font-size: 15px;
+  margin-bottom: 0;
+  line-height: 1em;
+  color: #00619a;
+}
 .theme-search-results-item-price-sign {
   font-size: 10px;
   color: #b3b3b3;
@@ -10032,17 +10040,18 @@ body {
   height: 47px;
 }
 .theme-account-avatar-img {
-  float: left;
+  float: right;
   width: 40px;
   display: block;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 0px;
+  margin-left: 18px;
 }
 .theme-account-avatar-name {
   margin-bottom: 0;
   font-size: 14px;
   line-height: 1.2em;
-  margin-top: 4px;
+  margin-top: 14px;
 }
 .theme-account-bookmarks-item {
   margin-bottom: 20px;
