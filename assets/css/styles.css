@@ -901,11 +901,11 @@ body {
   padding: 12px 20px;
 }
 .navbar-theme .dropdown-menu > li > a:hover {
-  background: #0093d2;
+  background: #144fff;
   color: #fff;
 }
 .navbar-theme .dropdown-menu > li.active > a {
-  background: #0093d2;
+  background: #144fff;
   color: #fff;
 }
 .navbar-theme .dropdown-menu-xl,
