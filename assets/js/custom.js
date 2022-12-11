@@ -150,20 +150,6 @@ function checkboxes() {
 }
 
 
-function googleMaps() {
-    if($('.google-map').length) {
-        window.initMap = function() {
-            $('.google-map').gmap();
-        }
-    } else {
-        window.initMap = function() {
-            return;
-        }
-    }
-}
-
-
-
 function afternavHeight() {
     $('.afternav-height').each(function(){
         var $mainNav = $('#main-nav'),
@@ -294,34 +280,6 @@ function heroSearchSections() {
     });
 }
 
-function autocomplete() {
-    $('.typeahead').typeahead({
-        minLength: 3,
-        showHintOnFocus: true,
-        source: function(q, cb) {
-            return $.ajax({
-                dataType: 'jsonp',
-                type: 'get',
-                url: 'http://gd.geobytes.com/AutoCompleteCity?callback=?&q=' + q,
-                chache: false,
-                success: function(data) {
-                    var res = [];
-                    $.each(data, function(index, val){
-                        if(val !== "%s") {
-                            res.push({
-                                id: index,
-                                name: val
-                            })
-                        }
-                    })
-                    cb(res);
-                }
-            })
-        }
-    })
-}
-
-
 function searchResultsCollapse() {
 
     $('.theme-search-results-item-collapse').on('shown.bs.collapse', function(){
@@ -332,19 +290,6 @@ function searchResultsCollapse() {
         $(this).parents('.theme-search-results-item').removeClass('active');
     });
 
-}
-
-
-function comingSoonCountdown() {
-
-    $('#commingSoonCountdown').countdown('1400/10/10', function(e){
-        $(this).html(e.strftime(''
-            + '<div><p>%D</p><span>روز</span></div>'
-            + '<div><p>%H</p><span>ساعت</span></div>'
-            + '<div><p>%M</p><span>دقیه</span></div>'
-            + '<div><p>%S</p><span>ثانیه</span></div>'
-        ));
-    });
 }
 
 $('.mobile-picker').each(function(i, item){
