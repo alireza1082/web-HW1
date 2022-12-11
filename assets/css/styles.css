@@ -8409,6 +8409,12 @@ body {
   display: inline-block;
   margin-right: 10px;
 }
+.flight-info-pay {
+  background: #fff;
+  padding: 25px 30px;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+}
 .theme-search-results-item-flight-payment-airline {
   margin-bottom: 5px;
   font-size: 12px;
