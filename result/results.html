@@ -86,10 +86,10 @@
                     <div class="tabbable">
 
                         <ul class="nav _tt-uc nav-tabs nav-line nav-white nav-lg nav-active-primary-inverse nav-mob-inline" role="tablist">
-                            <li class="active" role="presentation">
+                            <li role="presentation">
                                 <a class="_op-1" aria-controls="SearchAreaTabs-1" role="tab" data-toggle="tab" href="#SearchAreaTabs-1">یک‌طرفه</a>
                             </li>
-                            <li role="presentation">
+                            <li class="active" role="presentation">
                                 <a class="_op-1" aria-controls="SearchAreaTabs-2" role="tab" data-toggle="tab" href="#SearchAreaTabs-2">رفت‌و‌برگشت</a>
                             </li>
                         </ul>
@@ -97,7 +97,7 @@
                         <div class="tab-content _pt-20">
 
                             <!-- tab_1 -->
-                            <div class="tab-pane active" id="SearchAreaTabs-1" role="tab-panel">
+                            <div class="tab-pane" id="SearchAreaTabs-1" role="tab-panel">
                                 <div class="theme-search-area theme-search-area-stacked">
                                     <div class="theme-search-area-form">
                                         <div class="row" data-gutter="none">
@@ -108,7 +108,7 @@
                                                             <div class="theme-search-area-section-inner">
                                                                 <form autocomplete="off" action="">
                                                                     <i class="theme-search-area-section-icon lin lin-location-pin"></i>
-                                                                    <input class="theme-search-area-section-input" id="myInput1" type="text" placeholder="مبدا">
+                                                                    <input class="theme-search-area-section-input" id="myInput1" type="text" placeholder="لندن">
                                                                 </form>
                                                             </div>
                                                         </div>
@@ -118,7 +118,7 @@
                                                             <div class="theme-search-area-section-inner">
                                                                 <form autocomplete="off" action="">
                                                                     <i class="theme-search-area-section-icon lin lin-location-pin"></i>
-                                                                    <input class="theme-search-area-section-input" id="myInput2" type="text" placeholder="مقصد">
+                                                                    <input class="theme-search-area-section-input" id="myInput2" type="text" placeholder="نیویورک">
                                                                 </form>
                                                             </div>
                                                         </div>
@@ -127,7 +127,7 @@
                                                         <div class="theme-search-area-section theme-search-area-section-bg-white theme-search-area-section-no-border theme-search-area-section-mr">
                                                             <div class="theme-search-area-section-inner">
                                                                 <i class="theme-search-area-section-icon lin lin-calendar"></i>
-                                                                <input class="theme-search-area-section-input datePickerStart _mob-h" value="تاریخ رفت" id="datepicker-Depart" type="text" placeholder="تاریخ رفت"  data-jdp>
+                                                                <input class="theme-search-area-section-input datePickerStart _mob-h" value="1401/04/23" id="datepicker-Depart" type="text" placeholder="1401/04/17"  data-jdp>
                                                                 <input class="theme-search-area-section-input _desk-h mobile-picker" value="تاریخ"  type="text"  data-jdp>
                                                             </div>
                                                         </div>
@@ -168,7 +168,7 @@
                             </div>
 
                             <!-- tab_2 -->
-                            <div class="tab-pane" id="SearchAreaTabs-2" role="tab-panel">
+                            <div class="tab-pane active" id="SearchAreaTabs-2" role="tab-panel">
                                 <div class="theme-search-area theme-search-area-stacked">
                                     <div class="theme-search-area-form">
                                         <div class="row" data-gutter="none">
@@ -179,7 +179,7 @@
                                                             <div class="theme-search-area-section-inner">
                                                                 <form autocomplete="off" action="">
                                                                     <i class="theme-search-area-section-icon lin lin-location-pin"></i>
-                                                                    <input class="theme-search-area-section-input" id="myInput3" type="text" placeholder="مبدا">
+                                                                    <input class="theme-search-area-section-input" id="myInput3" type="text" value="لندن">
                                                                 </form>
                                                             </div>
                                                         </div>
@@ -189,7 +189,7 @@
                                                             <div class="theme-search-area-section-inner">
                                                                 <form autocomplete="off" action="">
                                                                     <i class="theme-search-area-section-icon lin lin-location-pin"></i>
-                                                                    <input class="theme-search-area-section-input" id="myInput4" type="text" placeholder="مقصد">
+                                                                    <input class="theme-search-area-section-input" id="myInput4" type="text" value="نیویورک">
                                                                 </form>
                                                             </div>
                                                         </div>
@@ -198,7 +198,7 @@
                                                         <div class="theme-search-area-section theme-search-area-section-bg-white theme-search-area-section-no-border theme-search-area-section-mr">
                                                             <div class="theme-search-area-section-inner">
                                                                 <i class="theme-search-area-section-icon lin lin-calendar"></i>
-                                                                <input class="theme-search-area-section-input datePickerStart _mob-h" value="تاریخ رفت" id="datepicker-Depart" type="text" placeholder="تاریخ رفت"  data-jdp>
+                                                                <input class="theme-search-area-section-input datePickerStart _mob-h" value="1401/04/23" id="datepicker-Depart" type="text" placeholder="1401/04/17"  data-jdp>
                                                                 <input class="theme-search-area-section-input _desk-h mobile-picker" value="تاریخ"  type="text"  data-jdp>
                                                             </div>
                                                         </div>
@@ -207,7 +207,7 @@
                                                         <div class="theme-search-area-section theme-search-area-section-bg-white theme-search-area-section-no-border theme-search-area-section-mr">
                                                             <div class="theme-search-area-section-inner">
                                                                 <i class="theme-search-area-section-icon lin lin-calendar"></i>
-                                                                <input class="theme-search-area-section-input datePickerStart _mob-h" value="تاریخ برگشت" id="datepicker-Depart" type="text" placeholder="تاریخ رفت"  data-jdp>
+                                                                <input class="theme-search-area-section-input datePickerStart _mob-h" value="1401/04/23" id="datepicker-Depart" type="text" placeholder="1401/04/23"  data-jdp>
                                                                 <input class="theme-search-area-section-input _desk-h mobile-picker" value="تاریخ"  type="text"  data-jdp>
                                                             </div>
                                                         </div>
@@ -413,13 +413,6 @@
                                         <div class="checkbox theme-search-results-sidebar-section-checkbox-list-item">
                                             <label class="icheck-label">
                                                 <input class="icheck" type="checkbox">
-                                                <span class="icheck-title">رویال</span>
-                                            </label>
-                                            <span class="theme-search-results-sidebar-section-checkbox-list-amount"> 127 تومان</span>
-                                        </div>
-                                        <div class="checkbox theme-search-results-sidebar-section-checkbox-list-item">
-                                            <label class="icheck-label">
-                                                <input class="icheck" type="checkbox">
                                                 <span class="icheck-title">ماهان</span>
                                             </label>
                                             <span class="theme-search-results-sidebar-section-checkbox-list-amount"> 227 تومان</span>
@@ -434,37 +427,9 @@
                                         <div class="checkbox theme-search-results-sidebar-section-checkbox-list-item">
                                             <label class="icheck-label">
                                                 <input class="icheck" type="checkbox">
-                                                <span class="icheck-title">ویرجین آتلانتیک ...</span>
-                                            </label>
-                                            <span class="theme-search-results-sidebar-section-checkbox-list-amount"> 270 تومان</span>
-                                        </div>
-                                        <div class="checkbox theme-search-results-sidebar-section-checkbox-list-item">
-                                            <label class="icheck-label">
-                                                <input class="icheck" type="checkbox">
-                                                <span class="icheck-title">خطوط هوایی دلتا</span>
-                                            </label>
-                                            <span class="theme-search-results-sidebar-section-checkbox-list-amount"> 138 تومان</span>
-                                        </div>
-                                        <div class="checkbox theme-search-results-sidebar-section-checkbox-list-item">
-                                            <label class="icheck-label">
-                                                <input class="icheck" type="checkbox">
                                                 <span class="icheck-title">هما</span>
                                             </label>
                                             <span class="theme-search-results-sidebar-section-checkbox-list-amount"> 187 تومان</span>
-                                        </div>
-                                        <div class="checkbox theme-search-results-sidebar-section-checkbox-list-item">
-                                            <label class="icheck-label">
-                                                <input class="icheck" type="checkbox">
-                                                <span class="icheck-title">لوفت هانزا</span>
-                                            </label>
-                                            <span class="theme-search-results-sidebar-section-checkbox-list-amount"> 242 تومان</span>
-                                        </div>
-                                        <div class="checkbox theme-search-results-sidebar-section-checkbox-list-item">
-                                            <label class="icheck-label">
-                                                <input class="icheck" type="checkbox">
-                                                <span class="icheck-title">امریکن ایرلاینز</span>
-                                            </label>
-                                            <span class="theme-search-results-sidebar-section-checkbox-list-amount"> 155 تومان</span>
                                         </div>
                                         <div class="checkbox theme-search-results-sidebar-section-checkbox-list-item">
                                             <label class="icheck-label">
@@ -561,7 +526,7 @@
                                                                     <p class="theme-search-results-item-flight-section-meta-city">
                                                                         لندن</p>
                                                                     <p class="theme-search-results-item-flight-section-meta-date">
-                                                                        17 مه 1400</p>
+                                                                        17 تیر 1400</p>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6 ">
@@ -609,7 +574,7 @@
                                                                     <p class="theme-search-results-item-flight-section-meta-city">
                                                                         نیویورک</p>
                                                                     <p class="theme-search-results-item-flight-section-meta-date">
-                                                                        18 مه 1400</p>
+                                                                        18 تیر 1400</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -640,7 +605,7 @@
                                                                     <p class="theme-search-results-item-flight-section-meta-city">
                                                                         نیویورک</p>
                                                                     <p class="theme-search-results-item-flight-section-meta-date">
-                                                                        23 مه 1400</p>
+                                                                        23 تیر 1400</p>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6 ">
@@ -988,7 +953,7 @@
                                                                     <p class="theme-search-results-item-flight-section-meta-city">
                                                                         لندن</p>
                                                                     <p class="theme-search-results-item-flight-section-meta-date">
-                                                                        17 مه 1400</p>
+                                                                        17 تیر 1400</p>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6 ">
@@ -1036,7 +1001,7 @@
                                                                     <p class="theme-search-results-item-flight-section-meta-city">
                                                                         نیویورک</p>
                                                                     <p class="theme-search-results-item-flight-section-meta-date">
-                                                                        18 مه 1400</p>
+                                                                        18 تیر 1400</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1067,7 +1032,7 @@
                                                                     <p class="theme-search-results-item-flight-section-meta-city">
                                                                         نیویورک</p>
                                                                     <p class="theme-search-results-item-flight-section-meta-date">
-                                                                        23 مه 1400</p>
+                                                                        23 تیر 1400</p>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6 ">
@@ -1415,7 +1380,7 @@
                                                                     <p class="theme-search-results-item-flight-section-meta-city">
                                                                         لندن</p>
                                                                     <p class="theme-search-results-item-flight-section-meta-date">
-                                                                        17 مه 1400</p>
+                                                                        17 تیر 1400</p>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6 ">
@@ -1463,7 +1428,7 @@
                                                                     <p class="theme-search-results-item-flight-section-meta-city">
                                                                         نیویورک</p>
                                                                     <p class="theme-search-results-item-flight-section-meta-date">
-                                                                        18 مه 1400</p>
+                                                                        18 تیر 1400</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1494,7 +1459,7 @@
                                                                     <p class="theme-search-results-item-flight-section-meta-city">
                                                                         نیویورک</p>
                                                                     <p class="theme-search-results-item-flight-section-meta-date">
-                                                                        23 مه 1400</p>
+                                                                        23 تیر 1400</p>
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-6 ">
