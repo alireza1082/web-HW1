@@ -743,6 +743,10 @@ body {
   border: none !important;
   background: none !important;
 }
+.nav_dark {
+  background-color: #000;
+  color: #f1f1f1;
+}
 .navbar-inverse {
   background: #0093d2;
 }
@@ -828,6 +832,12 @@ body {
 }
 .navbar-theme .navbar-nav > li:hover > a {
   color: #3e3e3e;
+}
+.navbar-nav .navbar-nav-dark > li > a {
+  color: #f1f1f1 !important;
+}
+.navbar-nav .navbar-nav-dark > li:hover > a {
+  color: #ffffff !important;
 }
 .navbar-theme .navbar-nav > li > a {
   font-size: 13px;
@@ -10034,6 +10044,39 @@ body {
 .theme-account-nav-list > li > a .fa {
   margin-left: 10px;
 }
+.theme-account-nav-list-dark {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.theme-account-nav-list-dark > li {
+  margin-bottom: 15px;
+}
+.theme-account-nav-list-dark > li:last-child {
+  margin-bottom: 0;
+}
+.theme-account-nav-list-dark > li.active > a {
+  color: white;
+  font-weight: bold;
+}
+.theme-account-nav-list-dark > li:hover > a {
+  color: white;
+  text-decoration: none;
+}
+.theme-account-nav-list-dark > li > a {
+  font-size: 15px;
+  color: #bdbdbd;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none !important;
+  display: block;
+}
+.theme-account-nav-list-dark > li > a .fa {
+  margin-left: 10px;
+}
 .theme-account-avatar {
   overflow: hidden;
   margin-bottom: 30px;
@@ -14567,8 +14610,11 @@ body {
 ._bg-gray {
   background-color: #bbbbbb !important;
 }
-._bg-ow{
+._bg-ow {
   background-color: #f1f1f1 !important;
+}
+._bg-g2 {
+  background-color: #343433 !important;
 }
 ._bg-b-03 {
   background-color: rgba(0,0,0,0.7) !important;
